@@ -40,7 +40,7 @@ test de http://babeljs.io/ : translate "next-gen JavaScript"  TO  "browser-compa
 
 ## Hello world
 <i>file index.html</i>
-
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -52,21 +52,23 @@ test de http://babeljs.io/ : translate "next-gen JavaScript"  TO  "browser-compa
   </body>
   <script src="/bundle.js"></script>
 </html>
-
+```
 <i>file: /src/index.js</i>
+```
 import React from 'react';
 import ReactDom from 'react-dom';
 //create new component. This component should produce some html
 const App = function() {
   return <div>Hi!</div>;
 }
+```
 //Take this components s generated HTML and put it on the page (in the DOM)
 ReactDom.render(<App />, document.querySelector('.container'));
 
 ## Coding Notes from React
-
+```
 const App = function(){...}   <=>  const App = () => {...}
-
+```
 
 
 
