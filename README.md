@@ -18,4 +18,11 @@ Main line on react-redox tutorial
 - npm start   for having a web server
 and go to http://localhost:8080/
 
+## Code Editing
+
+- open directory with atom and read index.html:
+    bundle.js: compile javascript for emtire web site
+
+React : is javascript labrairy for produce html code, with components and views
+components: snippet of code that produce HTML
 
