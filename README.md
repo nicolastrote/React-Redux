@@ -3,7 +3,8 @@ Main line on react-redox tutorial
 
 ## Installation for Windows
 
-- visualstudio : https://code.visualstudio.com/docs/?dv=win
+- visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
+- atom : https://atom.io/     google code editor
 - git: https://git-for-windows.github.io/
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
 
