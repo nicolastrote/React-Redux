@@ -5,6 +5,12 @@ Main line on react-redox tutorial
 
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
 - atom : https://atom.io/     google code editor
+  - Babel grammar: 
+      - go on Packages > Settings View > Install Packages/Themes >
+      - search language-babel and install it
+- Google Chrome:
+      - Download the React DevTools for a better development experience: https://fb.me/react-devtools
+      - (hangout,gmail,)
 - git: https://git-for-windows.github.io/
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
 - pour le clavier Francais(Canadien QWERTY avec accolades au dessus du shift droite: )
@@ -28,5 +34,46 @@ and go to http://localhost:8080/
 
 React : is javascript labrairy for produce html code, with components and views
 components: snippet of code that produce HTML
-JSX: allow to write HTML code inside JS
+JSX: allow to write HTML code inside JS, but it can t be executed by the browser
+
+test de http://babeljs.io/ : translate "next-gen JavaScript"  TO  "browser-compatible JavaScript"
+
+## Hello world
+<i>file index.html</i>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container"></div>
+  </body>
+  <script src="/bundle.js"></script>
+</html>
+
+<i>file: /src/index.js</i>
+import React from 'react';
+import ReactDom from 'react-dom';
+//create new component. This component should produce some html
+const App = function() {
+  return <div>Hi!</div>;
+}
+//Take this components s generated HTML and put it on the page (in the DOM)
+ReactDom.render(<App />, document.querySelector('.container'));
+
+## Coding Notes from React
+
+const App = function(){...}   <=>  const App = () => {...}
+
+
+
+
+
+
+
+
+
+
 
