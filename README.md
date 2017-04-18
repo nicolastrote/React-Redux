@@ -28,4 +28,5 @@ and go to http://localhost:8080/
 
 React : is javascript labrairy for produce html code, with components and views
 components: snippet of code that produce HTML
+JSX: allow to write HTML code inside JS
 
