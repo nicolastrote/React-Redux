@@ -7,7 +7,10 @@ Main line on react-redox tutorial
 - atom : https://atom.io/     google code editor
 - git: https://git-for-windows.github.io/
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
-
+- pour le clavier Francais(Canadien QWERTY avec accolades au dessus du shift droite: )
+parametres » langues  »  parametre de region 
+» ajouter une region » FRANCAIS (CANADA) puis option et choisir  FRANCAIS (CANADA) 
+                                           nb: ! ne pas prendre  FRANCAIS (CANADA) herite
 ## Clone ReduxCasts Rep from StephenGrider
 
 - cd /Documents/
