@@ -13,6 +13,8 @@ Main line on react-redox tutorial
 - git clone https://github.com/StephenGrider/ReduxSimpleStarter    with git Terminal
 - cd ReduxSimpleStarter
 - npm install     with Nods.js terminal
-- 
+  all information of this install are in the package.json file
+- npm start   for having a web server
+and go to http://localhost:8080/
 
 
