@@ -69,6 +69,16 @@ ReactDom.render(<App />, document.querySelector('.container'));
 ```
 const App = function(){...}   <=>  const App = () => {...}
 ```
+## API Youtube
+
+- https://console.developers.google.com
+- create a nube project
+- enable the  Youtube Data API V3
+- create "credential" (certificat)
+- Web Browser (JS)   / Public    code:AIzaSyAQDaKFEtjbyhl6KFXXTWign_bh6p53eIs
+
+
+
 
 
 
