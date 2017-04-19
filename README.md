@@ -131,7 +131,11 @@ class SearchBar extends Component {
 }
 export default SearchBar;
 ```
-
+## State
+Plain JS object use to record in React to use revence...= rerender
+STATE MUST BE INITIALISE
+Each class has its own state object. If component state change all chidren components and it-self are re-render
+exp: state of searchbar change => its children are re-render
 
 
 
