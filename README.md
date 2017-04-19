@@ -132,12 +132,38 @@ class SearchBar extends Component {
 export default SearchBar;
 ```
 ## State
-Plain JS object use to record in React to use revence...= rerender
-STATE MUST BE INITIALISE
-Each class has its own state object. If component state change all chidren components and it-self are re-render
-exp: state of searchbar change => its children are re-render
+- Plain JS object use to record in React to use revence...= rerender
+- <b>STATE is a plain JS object that exist on any components that have a class based components</b>
+- STATE in class MUST BE INITIALISE in constructor
+- Each class has its own state object. If component state change all chidren components and it-self are re-render
+- exp: state of searchbar change => its children are re-render
+- Always update the state with SETSTATE
 
+## Controlled Components
 
+- A controlled component need a "value" attribute. 
+- Here the value is initialize with term (empty string at first), 
+- and next the event onChange will assign a new string to "value".
+
+```
+import React, { Component } from 'react';
+class SearchBar extends Component {
+  constructor(props) {
+      super(props);
+      this.state = { term: '' };
+  }
+  render() {
+    return (
+      <div>
+        <input
+            value={this.state.term} // controlled components
+            onChange={event => this.setState({ term: event.target.value })} />
+      </div>
+    )
+  }
+}
+export default SearchBar;
+```
 
 
 
