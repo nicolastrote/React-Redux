@@ -89,13 +89,16 @@ Always begin with a function, and when you need to add methode (functionnalities
   <tr>
   <tr>
     <td>
+      ```
       import React, { Component } from 'react';
       const SearchBar = () => {
           return <input />;
       }
       export default SearchBar;
+      ```
     <td>
     <td>
+      ```
       import React, { Component } from 'react';
       class SearchBar extends Component {
         render() {
@@ -103,6 +106,7 @@ Always begin with a function, and when you need to add methode (functionnalities
         }
       }
       export default SearchBar;
+      ```
     <td>
   <tr>
 </table>
