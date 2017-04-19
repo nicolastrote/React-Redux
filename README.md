@@ -80,6 +80,32 @@ const App = function(){...}   <=>  const App = () => {...}
 - open node.js terminal
 -$ npm install youtube-api-search
 
+## Function and Class
+Always begin with a function, and when you need to add methode (functionnalities) refactor to a class
+<table>
+  <tr>
+    <td>Function<td>
+    <td>Class<td>
+  <tr>
+  <tr>
+    <td>
+      import React, { Component } from 'react';
+      const SearchBar = () => {
+          return <input />;
+      }
+      export default SearchBar;
+    <td>
+    <td>
+      import React, { Component } from 'react';
+      class SearchBar extends Component {
+        render() {
+          return <input />;
+        }
+      }
+      export default SearchBar;
+    <td>
+  <tr>
+</table>
 
 
 
