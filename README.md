@@ -121,7 +121,8 @@ class SearchBar extends Component {
 }
 export default SearchBar;
 ```
-after refactoring
+after refactoring:
+```
 import React, { Component } from 'react';
 class SearchBar extends Component {
   render() {
