@@ -107,6 +107,22 @@ Always begin with a function, and when you need to add methode (functionnalities
   <tr>
 </table>
 
+## Event
+'''
+import React, { Component } from 'react';
+class SearchBar extends Component {
+  render() {
+    return <input onChange={this.onInputChange} />;
+  }
+  onInputChange(event) {
+     console.log(event.target.value);     // that's visible in Chrome Dev. Tool > Console
+     // for having all events in console:  console.log(event);
+  }
+}
+export default SearchBar;
+'''
+
+
 
 
 
