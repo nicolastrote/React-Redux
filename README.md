@@ -132,8 +132,9 @@ class SearchBar extends Component {
 export default SearchBar;
 ```
 ## State
-- Plain JS object use to record in React to use revence...= rerender
-- <b>STATE is a plain JS object that exist on any components that have a class based components</b>
+- plain javascript object that is used to record and react to user events each class based component that we define has its own state object whenever a component state is changed the component immediately renders and also forces all of its children to render as well.
+- <b>state is a plain javascript object that exists on any component that's a class based component</b>
+- Each instance of a class based component has its own copy of states
 - STATE in class MUST BE INITIALISE in constructor
 - Each class has its own state object. If component state change all chidren components and it-self are re-render
 - exp: state of searchbar change => its children are re-render
