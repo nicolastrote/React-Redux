@@ -108,7 +108,7 @@ Always begin with a function, and when you need to add methode (functionnalities
 </table>
 
 ## Event
-'''
+```
 import React, { Component } from 'react';
 class SearchBar extends Component {
   render() {
@@ -120,7 +120,7 @@ class SearchBar extends Component {
   }
 }
 export default SearchBar;
-'''
+```
 
 
 
