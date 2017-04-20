@@ -178,6 +178,8 @@ export default SearchBar;
 ```
 
 # Redox
+Redux is a predictable state container for JavaScript apps 
+- http://redux.js.org/
 
 
 
