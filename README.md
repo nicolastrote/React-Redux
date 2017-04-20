@@ -1,11 +1,16 @@
 # Tuto_React_Redox
 Main line on react-redox tutorial
 
+# React
+
 ## Installation for Windows
 
 - Enable Dark Mode for Windows 10 Settings and Apps
   - Settings > Personalization > Colors. 
   - Scroll down and select “Dark” under “Choose your app mode”.
+ - Enaqble Dark Mode theme in Chrome:
+  - morpheon theme: https://chrome.google.com/webstore/detail/morpheon-dark/mafbdhjdkjnoafhfelkjpchpaepjknad?hl=en
+ - Darth theme windows: https://github.com/riverar/uxstyle/releases/download/0.2.4.2/UxStyle_0242_x86_x64_preview.exe
 
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
 - atom : https://atom.io/     google code editor
@@ -171,6 +176,8 @@ class SearchBar extends Component {
 }
 export default SearchBar;
 ```
+
+# Redox
 
 
 
