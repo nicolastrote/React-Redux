@@ -80,6 +80,11 @@ ReactDom.render(<App />, document.querySelector('.container'));
 ```
 const App = function(){...}   <=>  const App = () => {...}
 ```
+## Test code in Google Chrome Console
+render() {
+  console.log(this.MyProperty)
+}
+
 ## API Youtube
 <i>For Youtube video browser</i>
 - https://console.developers.google.com
@@ -189,8 +194,39 @@ expl: {List View, items, detail,..}     {List of books, Currently selected books
 Reducer is a function that returns a piece of the application state.
 React and Redux are separate. We need to use a separate library called re-act redux to connect them.
 The react component will be a container or `smart cmponent` to connect them.
+For making a link:
+* creat book-list.js in components folder
+```
+import React, {Component} from 'react';
+import { connect } from 'react-redux';  //the library for making the "glue" between React and Redux
+            //minus for connect
 
-
+class BookList extends Component {
+  renderlist() {
+    return this.props.books.map((book) => {
+      return(
+        <li key={book.title} className="list-group-item">{book.title}</li>
+      );
+    });
+  }
+  render() {
+    return (
+      //console.log(this.props.BookList); // for testing code in Console
+      <ul className="list-group col-sm-4">
+        {this.renderList()}
+      </ul>
+    )
+  }
+}
+// if the state changes so Booklist would be re-reredering
+function mapStateToProps(state){    // Fetch the STATE
+  return{
+    books: state.books
+  };
+}
+// we export the container
+export default connect(mapStateToProps)(BookList);
+```
 
 
 
