@@ -184,6 +184,11 @@ Redux is a predictable state container for JavaScript apps
 React is the view (ie. MVC) and Redoc is the Content of the application.
 expl: {List View, items, detail,..}     {List of books, Currently selected books,..}
 
+## Reducer
+
+Reducer is a function that returns a piece of the application state.
+React and Redux are separate. We need to use a separate library called re-act redux to connect them.
+The react component will be a container or `smart cmponent` to connect them.
 
 
 
