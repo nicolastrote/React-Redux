@@ -3,6 +3,10 @@ Main line on react-redox tutorial
 
 ## Installation for Windows
 
+- Enable Dark Mode for Windows 10 Settings and Apps
+  - Settings > Personalization > Colors. 
+  - Scroll down and select “Dark” under “Choose your app mode”.
+
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
 - atom : https://atom.io/     google code editor
   - Babel grammar: 
