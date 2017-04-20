@@ -181,6 +181,9 @@ export default SearchBar;
 Redux is a predictable state container for JavaScript apps 
 - http://redux.js.org/
 
+React is the view (ie. MVC) and Redoc is the Content of the application.
+expl: {List View, items, detail,..}     {List of books, Currently selected books,..}
+
 
 
 
