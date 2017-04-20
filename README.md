@@ -7,7 +7,9 @@ Main line on react-redox tutorial
 - atom : https://atom.io/     google code editor
   - Babel grammar: 
       - go on Packages > Settings View > Install Packages/Themes >
-      - search language-babel and install it
+      - search language-babel (and install it)
+      - search atom-formatter-jsbeautify (and install it)
+      - search Indent Guide Improved (and install it)
 - Google Chrome:
       - Download the React DevTools for a better development experience: https://fb.me/react-devtools
       - (hangout,gmail,)
