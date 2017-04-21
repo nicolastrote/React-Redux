@@ -19,6 +19,12 @@ Main line on react-redox tutorial
       - search language-babel (and install it)
       - search atom-formatter-jsbeautify (and install it)
       - search Indent Guide Improved (and install it)
+  - Autoindent : open C:\Users\MYLOGIN\.atom
+    en add/SAVE/RESTART:
+    ```
+    'atom-text-editor':
+    'ctrl-alt-l': 'editor:auto-indent'
+    ```
 - Google Chrome:
       - Download the React DevTools for a better development experience: https://fb.me/react-devtools
       - (hangout,gmail,)
