@@ -3,16 +3,17 @@ Main line on react-redox tutorial
 
 # React
 
-## Installation for Windows
-
+## Installation for Windows/Mac
+### Dark Mode
 - Enable Dark Mode for Windows 10 Settings and Apps
   - Settings > Personalization > Colors. 
   - Scroll down and select “Dark” under “Choose your app mode”.
  - Enaqble Dark Mode theme in Chrome:
   - morpheon theme: https://chrome.google.com/webstore/detail/morpheon-dark/mafbdhjdkjnoafhfelkjpchpaepjknad?hl=en
  - Darth theme windows: https://github.com/riverar/uxstyle/releases/download/0.2.4.2/UxStyle_0242_x86_x64_preview.exe
-
+### Visual Studio Code
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
+### ATOM
 - atom : https://atom.io/     google code editor
   - Babel grammar: 
       - go on Packages > Settings View > Install Packages/Themes >
@@ -25,17 +26,25 @@ Main line on react-redox tutorial
     'atom-text-editor':
     'ctrl-alt-l': 'editor:auto-indent'
     ```
-- Google Chrome:
-      - Download the React DevTools for a better development experience: https://fb.me/react-devtools
-      - (hangout,gmail,)
+### GIT
 - git: https://git-for-windows.github.io/
+### NODE.JS -> NPM
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
-- pour le clavier Francais(Canadien QWERTY avec accolades au dessus du shift droite: )
+  - install React-Devtool which work with Google Chrome:
+     ```
+     npm install --save react-devtools@2.0.12
+    ```
+### CHROME
+- Google Chrome:
+      - Intall React DevTools from https://fb.me/react-devtools
+      - (hangout,gmail,...)
+### KEYBOARD      
+- FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
 parametres » langues  »  parametre de region 
 » ajouter une region » FRANCAIS (CANADA) puis option et choisir  FRANCAIS (CANADA) 
                                            nb: ! ne pas prendre  FRANCAIS (CANADA) herite
-## Clone ReduxCasts Rep from StephenGrider
 
+## Clone ReduxCasts Rep from StephenGrider
 - cd /Documents/
 - git clone https://github.com/StephenGrider/ReduxSimpleStarter    with git Terminal
 - cd ReduxSimpleStarter
