@@ -20,11 +20,17 @@ Main line on react-redox tutorial
       - search language-babel (and install it)
       - search atom-formatter-jsbeautify (and install it)
       - search Indent-Guide-Improved (and install it)
-  - Autoindent : open C:\Users\MYLOGIN\.atom\keymap.cson
-    en add/SAVE/RESTART:
+  - Autoindent on Windows: open C:\Users\MYLOGIN\.atom\keymap.cson
+    en ADD/SAVE/RESTART:
     ```
     'atom-text-editor':
     'ctrl-alt-l': 'editor:auto-indent'
+    ```
+  - Autoindent on Mac: open vim .atom/keymap.cson
+    en ADD/SAVE/RESTART:
+    ```
+    'atom-text-editor':
+    'cmd-alt-l': 'editor:auto-indent'
     ```
 ### GIT
 - git: https://git-for-windows.github.io/
@@ -36,7 +42,9 @@ Main line on react-redox tutorial
     ```
 ### CHROME
 - Google Chrome:
-      - Intall React DevTools from https://fb.me/react-devtools
+      - Install React DevTools from https://fb.me/react-devtools
+      - Install Reduc DevTools from chrome extension page
+      - Install JSONView from chrome extension page
       - (hangout,gmail,...)
 ### KEYBOARD      
 - FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
