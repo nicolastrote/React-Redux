@@ -11,8 +11,16 @@ Main line on react-redox tutorial
  - Enaqble Dark Mode theme in Chrome:
   - morpheon theme: https://chrome.google.com/webstore/detail/morpheon-dark/mafbdhjdkjnoafhfelkjpchpaepjknad?hl=en
  - Darth theme windows: https://github.com/riverar/uxstyle/releases/download/0.2.4.2/UxStyle_0242_x86_x64_preview.exe
+ 
 ### Visual Studio Code
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
+
+#### Extensions (Launch VS Code Quick Open (Ctrl+P))
+- beautify : https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+- Sublime Text Keymap : https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
+- React-Redux-ES6 : https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux
+- React-beautify : https://marketplace.visualstudio.com/items?itemName=taichi.react-beautify
+
 ### ATOM
 - atom : https://atom.io/     google code editor
   - Babel grammar: 
@@ -32,20 +40,27 @@ Main line on react-redox tutorial
     'atom-text-editor':
     'cmd-alt-l': 'editor:auto-indent'
     ```
+    
+### NOTEPAD++
+- https://notepad-plus-plus.org/
+
 ### GIT
 - git: https://git-for-windows.github.io/
+
 ### NODE.JS -> NPM
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
   - install React-Devtool which work with Google Chrome:
      ```
      npm install --save react-devtools@2.0.12
     ```
+    
 ### CHROME
 - Google Chrome:
       - Install React DevTools from https://fb.me/react-devtools
       - Install Reduc DevTools from chrome extension page
       - Install JSONView from chrome extension page
       - (hangout,gmail,...)
+      
 ### KEYBOARD      
 - FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
 parametres » langues  »  parametre de region 
@@ -62,11 +77,10 @@ parametres » langues  »  parametre de region
 and go to http://localhost:8080/
 
 ## Code Editing
-
 - open directory with atom and read index.html:
     bundle.js: compile javascript for emtire web site
 
-React : is javascript labrairy for produce html code, with components and views
+React : is javascript library for produce html code, with components and views
 components: snippet of code that produce HTML
 JSX: allow to write HTML code inside JS, but it can t be executed by the browser
 
