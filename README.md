@@ -66,14 +66,13 @@ parametres » langues  »  parametre de region
 nb: ! ne pas prendre  FRANCAIS (CANADA) herite
 
 
-## Terminator
-
+## Terminal
+- for MacOS : http://iterm2.com/
+- fro Windows : https://msdn.microsoft.com/powershell
 
 ## Source Tree 
 - Télécharger le exe: http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.10.0.exe
 Pour SOURCETREE / GIT faire:
-
-
 
 # Formation Stephen Grider
 ## Clone ReduxCasts Rep from StephenGrider
