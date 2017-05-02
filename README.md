@@ -1,10 +1,8 @@
 # Tuto_React_Redox
 Main line on react-redox tutorial
 
-# React
-
 ## Installation for Windows/Mac
-### Dark Mode
+## Dark Mode
 - Enable Dark Mode for Windows 10 Settings and Apps
   - Settings > Personalization > Colors. 
   - Scroll down and select “Dark” under “Choose your app mode”.
@@ -12,16 +10,16 @@ Main line on react-redox tutorial
   - morpheon theme: https://chrome.google.com/webstore/detail/morpheon-dark/mafbdhjdkjnoafhfelkjpchpaepjknad?hl=en
  - Darth theme windows: https://github.com/riverar/uxstyle/releases/download/0.2.4.2/UxStyle_0242_x86_x64_preview.exe
  
-### Visual Studio Code
+## Visual Studio Code
 - visualstudio : https://code.visualstudio.com/docs/?dv=win  MS code editor
 
-#### Extensions (Launch VS Code Quick Open (Ctrl+P))
+### Extensions (Launch VS Code Quick Open (Ctrl+P))
 - beautify : https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
 - Sublime Text Keymap : https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
 - React-Redux-ES6 : https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux
 - React-beautify : https://marketplace.visualstudio.com/items?itemName=taichi.react-beautify
 
-### ATOM
+## ATOM
 - atom : https://atom.io/     google code editor
   - Babel grammar: 
       - go on Packages > Settings View > Install Packages/Themes >
@@ -41,32 +39,33 @@ Main line on react-redox tutorial
     'cmd-alt-l': 'editor:auto-indent'
     ```
     
-### NOTEPAD++
+## NOTEPAD++
 - https://notepad-plus-plus.org/
 
-### GIT
+## GIT
 - git: https://git-for-windows.github.io/
 
-### NODE.JS -> NPM
+## NODE.JS -> NPM
 - Node.js: https://nodejs.org/en/download/   npm fait partie de l'environnement
   - install React-Devtool which work with Google Chrome:
      ```
      npm install --save react-devtools@2.0.12
     ```
     
-### CHROME
+## CHROME
 - Google Chrome:
       - Install React DevTools from https://fb.me/react-devtools
       - Install Reduc DevTools from chrome extension page
       - Install JSONView from chrome extension page
       - (hangout,gmail,...)
       
-### KEYBOARD      
+## KEYBOARD      
 - FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
 parametres » langues  »  parametre de region 
 » ajouter une region » FRANCAIS (CANADA) puis option et choisir  FRANCAIS (CANADA) 
                                            nb: ! ne pas prendre  FRANCAIS (CANADA) herite
 
+# Formation Stephen Grider
 ## Clone ReduxCasts Rep from StephenGrider
 - cd /Documents/
 - git clone https://github.com/StephenGrider/ReduxSimpleStarter    with git Terminal
