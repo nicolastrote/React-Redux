@@ -63,7 +63,17 @@ Main line on react-redox tutorial
 - FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
 parametres » langues  »  parametre de region 
 » ajouter une region » FRANCAIS (CANADA) puis option et choisir  FRANCAIS (CANADA) 
-                                           nb: ! ne pas prendre  FRANCAIS (CANADA) herite
+nb: ! ne pas prendre  FRANCAIS (CANADA) herite
+
+
+## Terminator
+
+
+## Source Tree 
+- Télécharger le exe: http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.10.0.exe
+Pour SOURCETREE / GIT faire:
+
+
 
 # Formation Stephen Grider
 ## Clone ReduxCasts Rep from StephenGrider
