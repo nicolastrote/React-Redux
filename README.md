@@ -53,13 +53,12 @@ Main line on react-redox tutorial
     ```
     
 ## CHROME
-- Google Chrome:
-      - Make a shotcut of Chrome with  "--disable-web-security  --user-data-dir" options,
-        - because you could use your own Chrome insteaf of VSCode's Chrome.
-      - Install React DevTools from https://fb.me/react-devtools
-      - Install Reduc DevTools from chrome extension page
-      - Install JSONView from chrome extension page
-      - (hangout,gmail,...)
+- Make a shotcut of Chrome with  "--disable-web-security  --user-data-dir" options,
+  - because you could use your own Chrome insteaf of VSCode's Chrome.
+- Install React DevTools from https://fb.me/react-devtools
+- Install Reduc DevTools from chrome extension page
+- Install JSONView from chrome extension page
+- (hangout,gmail,...)
       
 ## KEYBOARD      
 - FRench Keybord (ie. Canadien QWERTY avec accolades au dessus du shift droite: )
