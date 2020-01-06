@@ -1,5 +1,5 @@
-# Tuto_React_Redox
-Main line on react-redox tutorial
+# Tuto_React_Redux
+Main line on react-redux tutorial
 
 ## Installation for Windows/Mac
 ## Dark Mode
