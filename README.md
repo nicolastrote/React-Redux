@@ -228,7 +228,7 @@ class SearchBar extends Component {
 export default SearchBar;
 ```
 
-# Redox
+# Redux
 Redux is a predictable state container for JavaScript apps 
 - http://redux.js.org/
 
