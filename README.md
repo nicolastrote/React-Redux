@@ -274,9 +274,45 @@ function mapStateToProps(state){    // Fetch the STATE
 export default connect(mapStateToProps)(BookList);
 ```
 
+## CORS ISSUE
 
+When your postman works but your call with fetch have status = CORS error, and even typing in the header *Access-Control-Allow-Origin* or *no-cors* doesn't work like :
+```
+const fetchedLocOriginationProcess = fetch(
+    http://localhost:8080/v1/processes, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'client_id': clientId,
+        'Accept-Language': acceptLanguage,
+        'Access-Control-Allow-Origin': 'http://localhost:3000',
+      },
+      cache: 'default',
+      mode: 'no-cors'
+    })
+    .then((response) => response.json())
+    .catch(error => console.error('Error! ' + error.message));
+```
+The solution is to use a local proxy named *local-cors-proxy*
 
+```
+npm install -g local-cors-proxy
+````
+Now your proxe is *http://localhost:8010/proxy/test/list*
 
-
-
-
+so your call will be : 
+```
+const fetchedLocOriginationProcess = fetch(
+    http://localhost:8080/v1/processes, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'client_id': clientId,
+        'Accept-Language': acceptLanguage,
+      },
+      cache: 'default',
+      mode: 'cors'
+    })
+    .then((response) => response.json())
+    .catch(error => console.error('Error! ' + error.message));
+```
